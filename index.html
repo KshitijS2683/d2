@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      font-family: "Ubuntu", sans-serif;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+    .middle {
+      height: 675px;
+    }
+    .footer {
+      height: 350px;
+    }
+    .floater {
+      background-color: white;
+      height: 30px;
+      padding: 7px;
+    }
+    .title {
+      background-color: white;
+      height: 120px;
+      position: sticky;
+      top: 0px;
+      opacity: 0.95;
+    }
+    .nav {
+      background-color: black;
+      height: 50px;
+      position: sticky;
+      top: 120px;
+      opacity: 0.82;
+      border: 2px transparent solid;
+    }
+    .bgimg {
+      background-color: black;
+      height: 400px;
+      background-image: url(./WhatsApp\ Image\ 2022-11-26\ at\ 10.35.03.jpeg);
+      background-size: cover;
+    }
+    .img {
+      background-color: rgb(0, 0, 0);
+      height: 95%;
+      width: 45%;
+      float: left;
+      margin-top: 15px;
+    }
+    .sdec {
+      height: 100%;
+      width: 55%;
+      float: right;
+    }
+    .qlink {
+      background-color: black;
+      background-image:linear-gradient(90deg,black,rgb(66, 66, 66),transparent);
+      height: 100%;
+      width: 34.25%;
+      float: right;
+      opacity: 0.85;
+      border-radius:20px;
+    }
+    .cinfo {
+      background-color: black;
+      background-image:linear-gradient(90deg,black,rgb(66, 66, 66),transparent);
+      height: 100%;
+      width: 65%;
+      float: left;
+      opacity: 0.85;
+      border-radius:20px;
+    }
+    .nav ul li {
+      display: inline-block;
+      margin-top: 15px;
+    }
+    .nav ul {
+      margin: 0px;
+      padding-left: 10px;
+    }
+    a {
+      text-decoration: none;
+      padding: 5px 20px;
+      font-size: 18px;
+      color: white;
+    }
+    a:hover {
+      text-decoration: none;
+      padding: 5px 20px;
+      color:lightblue;
+    }
+    a:active {
+      text-decoration: underline;
+      padding: 5px 20px;
+      color: rgb(227, 227, 227);
+    }
+    .t1 {
+      float: left;
+      margin: 15px 7px 8px 330px;
+      font-weight: bolder;
+    }
+    .login {
+      float: right;
+      margin: 36px 77px 0px 0px;
+    }
+    img.log {
+      height: 98px;
+    }
+    .logo {
+      float: left;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+    .btn {
+      padding: 10px 50px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: black;
+      opacity: 0.82;
+      color: white;
+      border-radius: 15px;
+    }
+    .sdec p {
+      margin: 16px 11px;
+      padding: 18px;
+      font-size: 18px;
+    }
+    h2 {
+      padding: 18px;
+      margin: 10px 11px 0px 11px;
+    }
+    .cinfo a {
+      display: inline-block;
+    }
+    .cinfo {
+      padding-left: 10px;
+      color: white;
+    }
+    .cinfo a {
+      margin-left: -11px;
+      padding: 13px 10px;
+      opacity: 0.85;
+    }
+    .cinfo h2 {
+      margin-left: -20px;
+      text-decoration: underline;
+    }
+    .cinfo span {
+      font-weight: bolder;
+      padding: 20px 10px 20px 0px;
+      font-size: 17px;
+    }
+    #add {
+      font-weight: bolder;
+      font-size: 17px;
+    }
+    h3 {
+      color: white;
+      text-decoration: underline;
+      padding: 30px 5px 14px 11px;
+      margin: 2px;
+    }
+    .qlink a {
+      display: block;
+      margin: 10px;
+      padding: 11px;
+      opacity: 0.85;
+    }
+  </style>
+  <body>
+    <div class="page">
+      <div class="floater">
+        <marquee
+          behavior="scroll"
+          direction="left"
+          onmouseover="this.stop()"
+          onmouseout="this.start()"
+          >This website is currently an unofficial one but is for the betterment of the funcitonality of the hostel chores, and our aim is to get this into use officially!</marquee
+        >
+      </div>
+      <div class="title">
+        <div class="logo"><img src="./logo.png" class="log" /></div>
+        <div class="t1"><h1>B.M.S. EDUCATIONAL TRUST HOSTELS</h1></div>
+        <div class="login">
+          <button class="btn"><a href="./index.html">Login</a></button>
+        </div>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Facilities</a></li>
+          <li><a href="#">Mess</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#bottom">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="bgimg"></div>
+      <div class="middle">
+        <div class="img"><img src="./20221126_095839.jpg" height="100%" width="100%" /></div>
+        <div class="sdec">
+          <h2>Hello there!!</h2>
+          <p>
+            The B.M.S. Educational Trust (BMSET) is a prestigious institution
+            which founded and manages the top class colleges viz., B.M.S.
+            College of Engineering (BMSCE) , BMS Institute of Technology &
+            Management, BMS College of Law, BMS College for women and others
+            institutions.
+          </p>
+
+          <p>
+            B.M.S. Educational Trust Hostels are part of BMSET and BMSET Hostels
+            in the campus of B.M.S. College of Engineering (BMSCE) provide
+            accommodation to the students wishing to reside in the hostels.
+            BMSET Hostels gives a distinct advantage of befriending with
+            students from across the globe and expose them different religions,
+            languages and customs of countries. Additionally, living as a
+            community in the hostel will lead to all-round development of
+            personality of a hostelite and will definitely go a long way in
+            fostering world-class citizens.
+          </p>
+
+          <p>
+            Hostels are independent units in respects to its internal
+            administration under the overall supervision of council of wardens
+            and the hostel management. The hostels are located in the southern
+            side and adjacent to the college campus and have a separate hostel
+            office and mess within the hostel premises.
+          </p>
+
+          <p>
+            The mess has a centralized modern kitchen and a separate dining hall
+            for boys and girls. General menus for each month is are decided by
+            the hostelite representatives selected by the hostels. Special menus
+            are introduced and served on all important festivals.
+          </p>
+        </div>
+      </div>
+      <div class="footer" id="bottom">
+        <div class="cinfo">
+          <h2>Contact Info</h2>
+          <p id="add">Address:</p>
+          <p>
+            P.O. Box No.: 1908, Bull Temple Road, Bangalore - 560 019 Karnataka,
+            India.
+          </p>
+          <span>Contact us:</span>
+          <a href="tel:8026622130">+91-80-26622130-35</a>
+          <br />
+          <span>E-mail:</span>
+          <a href="mailto:info@bmsce.ac.in">info@bmsce.ac.in</a>
+          <br />
+          <a href="https://www.instagram.com/explore/locations/259521353/bms-hostels/?hl=en" target="_blank">Instagram</a>
+          <br />
+          <a href="https://en.wikipedia.org/wiki/B.M.S._College_of_Engineering" target="_blank">Wikipedia</a>
+        </div>
+        <div class="qlink">
+          <h3>Quick Links</h3>
+          <a href="https://bmsce.ac.in" target="_blank">BMS College of Engineering</a>
+          <a href="https://bmsce.ac.in/home/Code-of-Conduct-for-Hostelites" target="_blank">Rules and Regulations</a>
+          <a href="https://bmsce.ac.in/home/Air-Quality-at-the-Campus" target="_blank">Air Quality at Campus</a>
+          <a href="https://www.antiragging.in/" target="_blank">Anti Ragging</a>
+          <a href="https://bmsce.ac.in/home/Hostel-Charges" target="_blank">Food at Hostel</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
